@@ -28,6 +28,9 @@ const homeStack = createStackNavigator({
 const savedStack = createStackNavigator({
   Saved: {
     screen: SavedScreen
+  },
+  SaplingDetail: {
+    screen: SaplingDetailScreen
   }
 }, {
   headerMode: 'none'
